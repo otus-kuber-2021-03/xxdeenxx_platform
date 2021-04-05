@@ -45,4 +45,4 @@ Review Required:
   - kubernetes-production-clusters/*
   - kubernetes-monitoring/*
   - kubernetes-logging/*
-  - kubernetes-debug/*
+  - kubernetes-debug/*  
