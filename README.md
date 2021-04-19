@@ -29,3 +29,7 @@ HW 2
   - Reverse Rolling Update
 6 Добавлен манифест node-exporter-daemonset.yaml для развертывания DaemonSet с Node Exporter
 7 Что-бы развернуть Node Exporter на master нодах, надо использовать tolerations (this toleration is to have the daemonset runnable on master nodes)
+
+HW 3
+
+Работа с Service Account, Role, RoleBinding, ClusterRole, ClusterRoleBinding.
