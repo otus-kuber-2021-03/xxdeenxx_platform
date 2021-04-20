@@ -33,3 +33,16 @@ HW 2
 HW 3
 
 Работа с Service Account, Role, RoleBinding, ClusterRole, ClusterRoleBinding.
+
+HW 4
+
+1 Приминили конфигурации minio-statefulset.yaml, minio-headless-service.yaml.. Создался PV и PVC
+
+Задание со ⭐
+
+2 Поместили user/pass в кодировке base64 в конфигурацию minio-secret.yaml
+3 Создали секрет
+4 Изменили конфигурацию minio-statefulset.yaml для использования секрета
+5 Тк секреты хранятся в незашифрованном виде необходимо:
+  Включить шифрование для секретов 
+  Настройть правила RBAC, которые ограничивают чтение и запись секрета
